@@ -1,0 +1,48 @@
+body{
+	background: url("../images/monopoly-guy.jpg") no-repeat;
+	background-size: 100%;
+	font-size: 18px;
+	font-family: "Times new Roman", serif;
+}
+
+#main{
+	background-color: rgba(255, 255, 255, .8);
+	width: 780px;
+	margin: 10px 10px 10px 30px;
+	padding: 20px 10px 20px 10px;
+}
+#headshots{
+	background-color: #95a5a6;
+	margin: 10px auto;
+	padding: 20px 10px;
+}
+header{
+	background-color: rgba(168, 213, 243, .7);
+	font-family: "Copperplate", "Copperplate Gothic Bold", serif;
+	text-align: center;
+	border: 3px black double;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+h1{
+	font-size: 60px;
+	border-top: 2px black solid;
+	border-bottom: 2px black solid;
+	margin: 10px 0;
+	text-transform: uppercase;
+}
+h2{
+	font-size: 20px;
+}
+p{
+	margin-bottom: 10px;
+	line-height: .9;
+}
+a{
+	text-decoration:none;
+	color: #2980b9;
+}
+a:hover{
+	color:#c0392b;
+}

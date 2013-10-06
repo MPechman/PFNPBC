@@ -1,6 +1,18 @@
-<% @skills.each do |skill| %>
-	<%= skill.name %>
-	<br>
-	<%= skill.description %>
-	<br>
-<% end %>
+<div id="container">
+	<img src="http://placekitten.com/100/100" alt="This is a kitten">
+	<div id="content">
+		<h1>Hi, I'm Michael </h1>
+		<p>
+			I am originally from <a href="http://en.wikipedia.org/wiki/Scarsdale,_New_York"> Scarsdale, New York </a> but recently moved to the Bay Area.  I currently work for <a href="http://Google.com"> Google </a> where I do strategy & BD for their shopping & commerce products.  I am a huge New York sports fan, although that has been extremely unpleasant recently.
+		</p>
+		<div id="skills">
+			<h2> My Skills</h2>
+			<ul>
+				<% @skills.each do |skill| %>
+					<li class="name_level"><%= link_to skill.name, skill %>: <%= skill.level %></li>
+					<li class="description"><%= skill.description%></li>
+				<% end %>
+			</ul>
+		</div>
+	</div><!-- END #content -->
+</div>
